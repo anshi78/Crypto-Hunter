@@ -3,9 +3,7 @@
 The Crypto Hunter is an innovative web application that empowers users to stay ahead in the fast-paced world of cryptocurrency. By leveraging real-time data from the CoinGecko API, it provides seamless tracking of prices and trends, helping investors make informed decisions with confidence.
 
 ## 🔗 Links
-- **Presentation:** _Coming Soon_
-- **YouTube Video:** _Coming Soon_
-- **Deployment Link:** _Coming Soon_
+- **Presentation:** 
 
 ---
 
