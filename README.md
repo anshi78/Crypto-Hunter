@@ -8,8 +8,7 @@ The Crypto Hunter is an innovative web application that empowers users to stay a
 ##  Links
 
 - **Presentation**: 
-- **YouTube Video**:
-- **Deployment Link**: 
+
 
 ---
 
@@ -86,14 +85,7 @@ crypto-hunter/
 
 ---
 
-##  Future Enhancements
 
-- Add favorites watchlist using `localStorage`
-- PWA support for offline access
-- WebSocket support for real-time streaming prices
-- Portfolio tracker with user authentication
-
----
 
 ## 🛠️ Tech Stack
 
