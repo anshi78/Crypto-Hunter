@@ -1,68 +1,109 @@
+
 # CryptoHunter – Real-Time Cryptocurrency Tracker
 
-CryptoHunter is a real-time cryptocurrency tracker web application that fetches and displays live prices and historical trends of various cryptocurrencies using the CoinGecko API.
+CryptoHunter is a web application that allows users to track real-time cryptocurrency prices with interactive charts, detailed coin data, and a clean UI built using React.js.
+
+---
 
 ##  Links
+
 - **Presentation**: 
-- **YouTube Video**: 
+- **YouTube Video**:
 - **Deployment Link**: 
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/crypto-hunter.git
+   cd crypto-hunter
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the app:
+   ```bash
+   npm start
+   ```
+
+---
 
 ##  Project Structure
 
 ```
 crypto-hunter/
 ├── public/
-│   └── index.html
+│   ├── favicon.ico
+│   ├── image.png
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+│
 ├── src/
 │   ├── Components/
 │   │   ├── Banner/
 │   │   │   └── Banner.js
 │   │   └── Header.js
+│   │
 │   ├── Pages/
+│   │   ├── Coinpage.js
+│   │   └── Homepage.js
+│   │
 │   ├── App.css
 │   ├── App.js
 │   ├── CryptoContext.js
 │   ├── index.css
 │   └── index.js
+│
 ├── .gitignore
-├── package.json
 ├── package-lock.json
+├── package.json
 └── README.md
 ```
 
-## Setup Instructions
-
-1. Make sure you have **Node.js** and **npm** installed.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/react-crypto-tracker.git
-   ```
-3. Navigate into the project directory:
-   ```bash
-   cd react-crypto-tracker
-   ```
-4. Install dependencies:
-   ```bash
-   npm install
-   ```
-5. Start the development server:
-   ```bash
-   npm start
-   ```
+---
 
 ##  Dependencies
-- React JS
-- Material UI
-- Chart.js
-- CoinGecko API
-- React Router
 
-##  Features
-- Live cryptocurrency tracking
-- Visual historical data using Chart.js
-- Global state management with Context API
-- Responsive UI with Material UI
+- **React.js**
+- **Material UI**
+- **Chart.js**
+- **React Router**
+- **CoinGecko API**
 
+---
+
+##  Requirements
+
+- Node.js & npm installed
+
+---
+
+##  Future Enhancements
+
+- Add favorites watchlist using `localStorage`
+- PWA support for offline access
+- WebSocket support for real-time streaming prices
+- Portfolio tracker with user authentication
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Material UI
+- **Charts**: Chart.js
+- **API**: CoinGecko (for cryptocurrency data)
+- **Routing**: React Router
+
+---
 
 ##  License
-This project is licensed under the **MIT License**.
+
+This project is licensed under the MIT License.
