@@ -25,16 +25,6 @@ Requirements
 •	Install dependencies using:
 •	npm install
 
-Setup Instructions
-•	1. Clone the Repository:
-•	git clone https://github.com/piyush-eon/react-crypto-tracker.git
-•	cd react-crypto-tracker
-•	2. Install Packages:
-•	npm install
-•	3. Run the App Locally:
-•	npm start
-•	The application will be hosted at: http://localhost:3000
-
 
 Future Enhancements
 •	- Add favorites watchlist using localStorage
