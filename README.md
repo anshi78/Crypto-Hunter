@@ -8,7 +8,7 @@ The Crypto Hunter is an innovative web application that empowers users to stay a
 ---
 
 ## Project Structure
-
+```plaintext
 CryptoHunter/
 │
 ├── public/
