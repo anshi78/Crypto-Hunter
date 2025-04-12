@@ -7,9 +7,10 @@ The Crypto Hunter is an innovative web application that empowers users to stay a
 
 ---
 
-##  Project Structure
-```
-crypto-hunter/
+## Project Structure
+
+CryptoHunter/
+│
 ├── public/
 │   ├── favicon.ico
 │   ├── image.png
@@ -18,23 +19,32 @@ crypto-hunter/
 │   ├── logo512.png
 │   ├── manifest.json
 │   └── robots.txt
-├── src/
-│   ├── Components/
-│   │   ├── Banner/
-│   │   │   └── Banner.js
-│   │   └── Header.js
-│   ├── Pages/
-│   │   ├── Coinpage.js
-│   │   └── Homepage.js
-│   ├── App.css
-│   ├── App.js
-│   ├── CryptoContext.js
-│   ├── index.css
-│   └── index.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
+│
+└── src/
+    ├── Components/
+    │   ├── Banner/
+    │   │   ├── Banner.js
+    │   │   └── Carousel.js
+    │   ├── CoinInfo.js
+    │   ├── CoinsTable.js
+    │   ├── Header.js
+    │   ├── SelectButton.js
+    ├── Pages/
+    │   ├── Coinpage.js
+    │   └── Homepage.js
+    ├── config/
+    │   ├── api.js
+    │   └── data.js
+    ├── App.css
+    ├── App.js
+    ├── CryptoContext.js
+    ├── index.css
+    ├── index.js
+    ├── .gitignore
+    ├── README.md
+    ├── package-lock.json
+    ├── package.json
+```
 ```
 
 ---
