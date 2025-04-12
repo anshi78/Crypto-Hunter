@@ -1,7 +1,7 @@
 
 # CryptoHunter – Real-Time Cryptocurrency Tracker
 
-CryptoHunter is a web application that allows users to track real-time cryptocurrency prices with interactive charts, detailed coin data, and a clean UI built using React.js.
+The Crypto Hunter is an innovative web application that empowers users to stay ahead in the fast-paced world of cryptocurrency. By leveraging real-time data from the CoinGecko API, it provides seamless tracking of prices and trends, helping investors make informed decisions with confidence.
 
 ---
 
