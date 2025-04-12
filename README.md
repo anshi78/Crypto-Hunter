@@ -1,13 +1,36 @@
-# 🪙 CryptoHunter – Real-Time Cryptocurrency Tracker
+# CryptoHunter – Real-Time Cryptocurrency Tracker
 
-## 🔗 Links
-- **Presentation:** _Add link here_
-- **YouTube Video:** _Add link here_
-- **Deployment:** _Add deployed project link_
+CryptoHunter is a real-time cryptocurrency tracker web application that fetches and displays live prices and historical trends of various cryptocurrencies using the CoinGecko API.
 
----
+##  Links
+- **Presentation**: 
+- **YouTube Video**: 
+- **Deployment Link**: 
 
-## ⚙️ Setup Instructions
+##  Project Structure
+
+```
+crypto-hunter/
+├── public/
+│   └── index.html
+├── src/
+│   ├── Components/
+│   │   ├── Banner/
+│   │   │   └── Banner.js
+│   │   └── Header.js
+│   ├── Pages/
+│   ├── App.css
+│   ├── App.js
+│   ├── CryptoContext.js
+│   ├── index.css
+│   └── index.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Setup Instructions
 
 1. Make sure you have **Node.js** and **npm** installed.
 2. Clone the repository:
@@ -27,48 +50,19 @@
    npm start
    ```
 
----
+##  Dependencies
+- React JS
+- Material UI
+- Chart.js
+- CoinGecko API
+- React Router
 
-## 📁 Project Structure
+##  Features
+- Live cryptocurrency tracking
+- Visual historical data using Chart.js
+- Global state management with Context API
+- Responsive UI with Material UI
 
-```
-react-crypto-tracker/
-│
-├── src/
-│   ├── components/        # Reusable UI components (Header, CoinTable, etc.)
-│   ├── pages/             # Homepage and Coin Detail Page
-│   ├── config/            # API endpoint configuration
-│   └── CryptoContext.js   # Global context for app-wide state
-│   └── App.js             # Main routing and layout
-│
-├── public/
-│   └── index.html
-│
-├── package.json
-└── README.md
-```
 
----
-
-## 📦 Dependencies
-
-- **React JS** – Frontend library
-- **Material UI** – Pre-styled component library
-- **Chart.js** – Visualization for historical data
-- **React Router** – Page navigation
-- **CoinGecko API** – Cryptocurrency market data
-
----
-
-## 🔮 Future Enhancements
-
-- Add **favorites/watchlist** using `localStorage`
-- **PWA support** for offline access
-- **WebSocket support** for real-time price updates
-- **Portfolio tracker** with user authentication
-
----
-
-## 🧪 License
-
+##  License
 This project is licensed under the **MIT License**.
